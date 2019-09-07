@@ -1,0 +1,35 @@
+Roll#7228
+
+
+number=int(input("Please Enter a Number : "));
+if(number%2==0):
+    print("This Number is Even")  
+else:  
+    print("This Number is Odd")
+
+
+
+# Tip of bill
+
+bill=float(input("Please Enter Bill Amount : "));
+
+tip = bill * 1.5
+print('A 1.5%% tip is: %.2f.' % (tip))
+print('Total price with 1.5%% tip is: %.2f' % (bill + tip))
+
+
+# Grade of a student from result.
+
+marks = int(input("Please Enter your Marks: "));
+
+grade = ("")
+if(marks >= 90):
+    print("A Grade")
+elif(marks >= 80):
+    print("B Grade")
+elif(marks >= 65):
+    print("C Grade")
+elif(marks >= 50):
+    print("D Grade")
+elif(marks <= 50):
+    print("F Grade")
